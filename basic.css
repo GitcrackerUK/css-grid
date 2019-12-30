@@ -1,0 +1,28 @@
+
+.container > div{
+  color: #FFEBAF;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container > div:nth-child(1) {
+
+  background-color: #86c4b5;
+}
+.container > div:nth-child(2) {
+  background-color: #F17060;
+}
+.container > div:nth-child(3) {
+  background-color: #86c4b5;
+}
+.container > div:nth-child(4) {
+  background-color: #FCC760;
+}
+.container > div:nth-child(5) {
+  background-color: #86c4b5;
+}
+.container > div:nth-child(6) {
+  background-color: #F17060;
+}

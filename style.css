@@ -1,0 +1,28 @@
+html{
+
+    background-color: #FFEBAF;
+}
+.container{
+  min-height: 100%;
+  text-transform: uppercase;
+  grid-gap: 5px;
+  display: grid;
+  margin: 20px;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows:40px auto 40px;
+}
+.header{
+  grid-column:1/-1
+}
+
+.menu{
+
+}
+
+.content{
+  grid-column:2/-1;
+}
+
+.footer{
+  grid-column:1/-1;
+}

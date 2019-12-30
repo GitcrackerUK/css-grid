@@ -1,0 +1,58 @@
+Essential to know
+=========================================
+.container/.wrapper{
+    display: grid;                              -assign grid properties to a container and children divs
+    grid-template-columns: 100px auto 100px;    -creating three columns , two fixed width and one auto "flexible"
+    grid-template-columns: repeat(3, 1fr);      -creates three columns with same auto width
+    grid-template-rows: 50px 50px;              -creates two rows with fixed height
+    grid-gap:3px;                               -creates gaps between grid elements
+    grid-auto-rows: minmax(100px, auto);        -specifies minimum height of rows and sets maximum as auto "flexible"
+}
+------------------------------------------
+.container/.wrapper{
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-temple-rows:40px 100px 40px;
+}
+div1{
+    grid-column:span 12;
+}
+div2{
+    grid-column:span 4;
+}
+div3{
+    grid-column:span 6;
+}
+div4{
+    grid-column:span 12;
+}
+----------------------------------------------
+
+1. justify-content: Horizontal
+Alignment & Spacing along primary axis (X-axis)
+flex-start; Align children horizontally left
+
+flex-end; Align children horizontally right
+
+center; Align children horizontally centered (amaze!)
+
+space-between; Distribute children horizontally evenly across entire width
+
+space-around; Distribute children horizontally evenly across entire width (but with space on the edges
+
+
+2. align-items: Vertical
+Alignment only along secondary axis (Y-axis)
+flex-start; Align children vertically top
+
+flex-end; Align children vertically bottom
+
+center; Align children vertically centered (amaze!)
+
+baseline; Aligned children vertically so their baselines align (doesn't really work)
+
+stretch; Force children to be height of container (great for columns)
+----------------------------------------------
+
+
+grid-template: repeat(2, 1fr) / repeat(3, 1fr);
