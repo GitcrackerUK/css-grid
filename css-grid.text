@@ -56,3 +56,5 @@ stretch; Force children to be height of container (great for columns)
 
 
 grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+grid-template-columns: repeat(auto-fit ,100px);
+grid-template-columns: repeat(auto-fit ,minmax(100px,1fr));

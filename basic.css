@@ -8,7 +8,6 @@
   align-items: center;
 }
 .container > div:nth-child(1) {
-
   background-color: #86c4b5;
 }
 .container > div:nth-child(2) {
@@ -24,5 +23,23 @@
   background-color: #86c4b5;
 }
 .container > div:nth-child(6) {
+  background-color: #F17060;
+}
+.container > div:nth-child(7) {
+  background-color: #86c4b5;
+}
+.container > div:nth-child(8) {
+  background-color: #F17060;
+}
+.container > div:nth-child(9) {
+  background-color: #86c4b5;
+}
+.container > div:nth-child(10) {
+  background-color: #FCC760;
+}
+.container > div:nth-child(11) {
+  background-color: #86c4b5;
+}
+.container > div:nth-child(12) {
   background-color: #F17060;
 }
