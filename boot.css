@@ -1,0 +1,50 @@
+body{
+
+}
+
+menu{
+  text-transform: capitalize;
+  height:64px;
+  padding: 3px;
+  margin: 0px;
+  width: 100%;
+  color: #fff;
+  margin-top: 0px;
+  background-color: #563d7c;
+  display: inline-block;
+}
+.logo{
+  padding:10px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 36px;
+  width: 36px;
+}
+menu ul {
+  list-style-type: none;
+}
+#mainlist li {
+  margin: 20px 10px ;
+  display: block;
+  float: left;
+}
+.rightmenu{
+  float: right;
+}
+menu a {
+  color: #fff;
+}
+menu a:active {
+  color: #fff;
+
+}
+menu a:hover {
+  color: #fff;
+
+}
