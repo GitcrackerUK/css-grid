@@ -134,6 +134,8 @@ padding: 0px;
   #section-d , #main-footer{
     grid-template-columns:1fr 1fr;
   }
+}
+@media(min-width:1000px){
   #section-b ul{
         display:flex;
         justify-content: space-around;
@@ -143,4 +145,5 @@ padding: 0px;
     width:31%;
 
   }
+
 }
